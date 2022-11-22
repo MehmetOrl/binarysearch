@@ -1,38 +1,22 @@
 
-import java.util.Scanner;
-public class IlkHello {
-    public static void main(String[] args) {
-        int mat,fiz,kim,turkce,tarih,muzik;
+1.soru
 
+(7,5,1,8,3,6,0,9,4,2)
 
+               7 
+             /   \
+           5       8
+          /  \ 
+         /     6
+        1 
+       / \   
+      0    3
+          /  \
+         2    4
+         
+2.soru root=7
 
-        Scanner Input =new Scanner(System.in);
-        System.out.print("Matemaik Notunuz Giriniz.:");
-        mat= Input.nextInt();
-        System.out.print("Fizik Notunuz Giriniz.:");
-        fiz= Input.nextInt();
-        System.out.print("Kimya Notunuz Giriniz.:");
-        kim= Input.nextInt();
-        System.out.print("Turkce Notunuz Giriniz.:");
-        turkce= Input.nextInt();
-        System.out.print("Tarih Notunuz Giriniz.:");
-        tarih= Input.nextInt();
-        System.out.print("Muzik Notunuz Giriniz.:");
-        muzik= Input.nextInt();
-        int toplam =mat+fiz+kim+turkce+tarih+muzik;
-        double ortalama= toplam/6.0;
-        System.out.println("Toplamlari.:"+toplam);
-        System.out.println("ortalamasi.:"+ortalama);
-        boolean s1=ortalama>=60;
+y=8
 
-        String str=s1?"geçti":"kaldi";
-        System.out.println(str);
-
-
-
-
-
-
-
-    }
-}
+z=5
+[patika](https://app.patika.dev/)
